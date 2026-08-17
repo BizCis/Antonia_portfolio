@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Contacto — Antonia Gallegos. Email y teléfono."
+    />
+    <title>Vamos a conectar — Antonia Gallegos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">Antonia Gallegos</a>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Abrir menú"
+      >
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Principal">
+        <a href="about.html">Quién soy</a>
+        <a href="projects/index.html">Proyectos</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html" aria-current="page">Conectar</a>
+      </nav>
+    </header>
+
+    <main id="main" class="page">
+      <div class="contact-layout">
+        <div>
+          <header class="page-hero">
+            <h1>Vamos a conectar!</h1>
+            <hr class="accent-rule" />
+          </header>
+
+          <dl class="contact-block">
+            <dt>Email</dt>
+            <dd>
+              <a href="mailto:gal_antt@outlook.com">gal_antt@outlook.com</a>
+            </dd>
+            <dt>Tel</dt>
+            <dd><a href="tel:+525540284476">(55) 4028 4476</a></dd>
+          </dl>
+        </div>
+
+        <div>
+          <p class="side-mark mark">
+            <span>Antonia Gallegos</span>
+            <span>Arquitecta</span>
+          </p>
+          <form
+            class="contact-form"
+            action="mailto:gal_antt@outlook.com"
+            method="get"
+          >
+            <label>
+              Nombre
+              <input type="text" name="subject" required autocomplete="name" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required autocomplete="email" />
+            </label>
+            <label>
+              Mensaje
+              <textarea name="body" rows="6" required></textarea>
+            </label>
+            <button class="btn btn--solid" type="submit">Enviar mensaje</button>
+            <p class="form-note">
+              El formulario abre tu correo. También puedes escribir directo a
+              gal_antt@outlook.com.
+            </p>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> Antonia Gallegos</p>
+      <div class="site-footer__links">
+        <a href="mailto:gal_antt@outlook.com">gal_antt@outlook.com</a>
+        <a href="tel:+525540284476">(55) 4028 4476</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

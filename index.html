@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Antonia Gallegos — Arquitecta especialista en Interiores. Portafolio personal."
+    />
+    <title>Antonia Gallegos — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">Antonia Gallegos</a>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Abrir menú"
+      >
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Principal">
+        <a href="about.html">Quién soy</a>
+        <a href="projects/index.html">Proyectos</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Conectar</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="cover" aria-label="Portada">
+        <div class="cover__video" aria-hidden="true">
+          <video
+            autoplay
+            muted
+            loop
+            playsinline
+            poster="assets/videos/hero-poster.jpg"
+          >
+            <source src="assets/videos/hero-architecture.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="cover__scrim" aria-hidden="true"></div>
+        <div class="cover__inner">
+          <p class="cover__personal">Personal</p>
+          <h1 class="cover__portfolio">Portfolio</h1>
+          <hr class="accent-rule accent-rule--center" />
+          <p class="cover__name">Antonia Gallegos</p>
+          <p class="cover__role">Arquitecta especialista en Interiores</p>
+          <div class="cover__actions">
+            <a class="btn btn--solid" href="projects/index.html">Ver proyectos</a>
+            <a class="btn btn--ghost" href="cv.html">Ver CV</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="about-preview">
+        <div class="split">
+          <div class="split__copy">
+            <p class="mark"><span>Quién soy</span></p>
+            <h2 id="about-preview">Espacios auténticos y funcionales</h2>
+            <hr class="accent-rule" />
+            <p>
+              Soy arquitecta enfocada en el diseño de interiores. Me apasiona
+              trabajar de la mano con los clientes para convertir sus ideas en
+              espacios que se sientan auténticos y funcionales, con un especial
+              interés en el diseño de cocinas como el corazón del hogar.
+            </p>
+            <a class="text-link" href="about.html">Leer más</a>
+          </div>
+          <figure class="split__media">
+            <img
+              src="assets/images/p03-01.jpg"
+              alt="Antonia Gallegos"
+              width="960"
+              height="1280"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="featured-heading">
+        <div class="section__head">
+          <div>
+            <p class="mark">Selección</p>
+            <h2 id="featured-heading">Proyectos</h2>
+            <hr class="accent-rule" />
+          </div>
+          <a class="text-link" href="projects/index.html">Ver todos</a>
+        </div>
+        <ul class="project-grid">
+          <li>
+            <a class="project-card" href="projects/fabrica-de-cartuchos.html">
+              <div class="project-card__media">
+                <img
+                  src="assets/images/p05-01.jpg"
+                  alt="Cocina Fábrica de Cartuchos"
+                  loading="lazy"
+                />
+              </div>
+              <p class="project-card__label">Proyecto</p>
+              <h3 class="project-card__title">Fábrica de Cartuchos</h3>
+            </a>
+          </li>
+          <li>
+            <a class="project-card" href="projects/cocina-polanco.html">
+              <div class="project-card__media">
+                <img
+                  src="assets/images/p06-01.jpg"
+                  alt="Cocina Polanco"
+                  loading="lazy"
+                />
+              </div>
+              <p class="project-card__label">Proyecto</p>
+              <h3 class="project-card__title">Cocina Polanco</h3>
+            </a>
+          </li>
+          <li>
+            <a class="project-card" href="projects/amsterdam.html">
+              <div class="project-card__media">
+                <img
+                  src="assets/images/p08-01.jpg"
+                  alt="Oficinas Amsterdam"
+                  loading="lazy"
+                />
+              </div>
+              <p class="project-card__label">Proyecto</p>
+              <h3 class="project-card__title">Amsterdam</h3>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> Antonia Gallegos</p>
+      <div class="site-footer__links">
+        <a href="mailto:gal_antt@outlook.com">gal_antt@outlook.com</a>
+        <a href="tel:+525540284476">(55) 4028 4476</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
