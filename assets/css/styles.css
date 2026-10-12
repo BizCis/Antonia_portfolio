@@ -420,8 +420,9 @@ body.nav-open .nav-toggle span:last-child {
 
 .split__media img {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
+  object-position: center;
   animation: softIn 1s var(--ease) both;
 }
 
