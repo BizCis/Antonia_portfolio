@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Antonia Gallegos — Arquitecta especialista en Interiores. Portafolio personal."
+      content="Antonia Gallegos — arquitectura e interiorismo, diseño de cocinas, mobiliario a medida y coordinación de obra."
     />
-    <title>Antonia Gallegos — Portfolio</title>
+    <title>Antonia Gallegos — Arquitectura</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +16,7 @@
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-  <body>
+  <body class="home">
     <a class="skip-link" href="#main">Saltar al contenido</a>
 
     <header class="site-header">
@@ -41,28 +41,33 @@
 
     <main id="main">
       <section class="cover" aria-label="Portada">
-        <div class="cover__video" aria-hidden="true">
-          <video
-            autoplay
-            muted
-            loop
-            playsinline
-            poster="assets/videos/hero-poster.jpg"
-          >
-            <source src="assets/videos/hero-architecture.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="cover__scrim" aria-hidden="true"></div>
-        <div class="cover__inner">
-          <p class="cover__personal">Personal</p>
-          <h1 class="cover__portfolio">Portfolio</h1>
-          <hr class="accent-rule accent-rule--center" />
-          <p class="cover__name">Antonia Gallegos</p>
-          <p class="cover__role">Arquitecta especialista en Interiores</p>
-          <div class="cover__actions">
-            <a class="btn btn--solid" href="projects/index.html">Ver proyectos</a>
-            <a class="btn btn--ghost" href="cv.html">Ver CV</a>
+        <div class="cover__grid">
+          <h1 class="cover__title">
+            <span>Espacios bien</span>
+            <span>pensados</span>
+          </h1>
+          <div class="cover__copy">
+            <p class="cover__lede">
+              Detalles que hacen la diferencia. Arquitectura e interiorismo con
+              especial atención al diseño de cocinas, mobiliario a medida y
+              coordinación de obra.
+            </p>
+            <a class="cover__cta" href="projects/index.html">Ver proyectos</a>
           </div>
+          <img
+            class="cover__photo cover__photo--main"
+            src="assets/images/p11-01.jpg"
+            alt="Estudio Dr. Alt 285, con vegetación y luz natural"
+            width="1600"
+            height="900"
+          />
+          <img
+            class="cover__photo cover__photo--side"
+            src="assets/images/p11-02.jpg"
+            alt="Cocina del proyecto Dr. Alt 285"
+            width="1600"
+            height="900"
+          />
         </div>
       </section>
 
